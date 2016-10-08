@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    JBZoo App is universal Joomla CCK, application for YooTheme Zoo component
+
+    @package     jbzoo
+    @version     2.x Pro
+    @author      JBZoo App http://jbzoo.com
+    @copyright   Copyright (C) JBZoo.com,  All rights reserved.
+    @license     http://jbzoo.com/license-pro.php JBZoo Licence
+    @coder       Denis Smetannikov <denis@jbzoo.com>
+-->
+<element type="element" group="Core" hidden="false">
+    <name>simplegeolocation</name>
+    <author>CB9TOIIIA</author>
+    <creationDate>2016</creationDate>
+    <copyright>Copyright (C) JBZoo.com</copyright>
+    <authorEmail>cb9toiiia@gmail.com</authorEmail>
+    <authorUrl>http://cb9t.ru</authorUrl>
+    <version>1.0</version>
+    <description>simplegeolocation by CB9TOIIIA</description>
+    <params>
+               <param name="inputidcountry" type="text" label="Введите id или по name поля (страна)"
+               description="Например: #jbcart-d31df793-de55-4710-b100-f3921f146b22"/>
+               <param name="inputidregion" type="text"  label="Введите id или по name поля (регион)"
+               description="Например: #jbcart-d31df793-de55-4710-b100-f3921f146b22"/>
+               <param name="inputidgorod" type="text"  label="Введите id или по name поля (города)"
+               description="Например: #jbcart-d31df793-de55-4710-b100-f3921f146b22"/>               <param name="inputidinputidregiongorod" type="text"  label="Введите id или по name поля (регион + город)"
+               description="Например: #jbcart-d31df793-de55-4710-b100-f3921f146b22"/>
+    </params>
+
+</element>
